@@ -1,0 +1,19 @@
+{
+  "name": "wedding-invitation",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "vite": "^8.0.12",
+    "vitest": "latest",
+    "@playwright/test": "latest",
+    "jsdom": "latest"
+  }
+}

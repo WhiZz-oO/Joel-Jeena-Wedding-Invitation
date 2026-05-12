@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation | Joel & Jeena</title>
+    <meta name="description" content="You are cordially invited to celebrate the wedding of Joel & Jeena. Save the date for our special day!">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <div class="logo-circle">JJ</div>
+            <div class="nav-title">
+                <span class="sans">Wedding Invitation</span>
+                <h4>Joel & Jeena</h4>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="sans">Event</a>
+            <a href="#family" class="sans">Family</a>
+            <a href="#location" class="sans">Location</a>
+            <a href="#invite" class="sans">Invite</a>
+        </div>
+    </nav>
+
+    <main class="main-wrapper">
+        <!-- Main Burgundy Container -->
+        <div id="hero" class="primary-container">
+            <p class="hero-label sans">Holy Matrimony</p>
+            
+            <div class="date-box">
+                <div class="date-frame-outer"></div>
+                <div class="date-frame-inner"></div>
+                <div class="diamond-icon diamond-left"></div>
+                <div class="diamond-icon diamond-right"></div>
+                <div class="central-glow"></div>
+                
+                <div class="date-content">
+                    <h5 class="sans">Wedding Date</h5>
+                    <p class="big-day">11</p>
+                    <p class="month-year serif">July 2026</p>
+                    <p class="weekday serif">Saturday | 11:00 AM</p>
+                    <button class="btn-outline" onclick="window.open('https://www.google.com/calendar/render?action=TEMPLATE&text=Joel+%26+Jeena+Wedding&dates=20260711T053000Z/20260711T083000Z&details=Wedding+ceremony+at+XII+Apostles+Church%2C+Chemmalamattom+followed+by+reception+at+XII+Apostles+Church+Auditorium.&location=XII+Apostles+Church%2C+Chemmalamattom', '_blank')">Save This Date</button>
+                </div>
+            </div>
+
+            <div class="names-wrap">
+                <h1>Joel <span>&</span> Jeena</h1>
+            </div>
+
+            <p class="hero-quote">
+                Join us for a day of prayer, blessing, and celebration as our families gather to witness the beginning of our new life together.
+            </p>
+
+            <div class="event-pills sans">
+                <div class="pill">Chemmalamattom</div>
+                <div class="pill">XII Apostles Church</div>
+                <div class="pill">Reception Follows</div>
+            </div>
+
+            <div class="hero-actions">
+                <button class="btn-gold-fill sans" onclick="window.location.href='#location'">Open Venue Map</button>
+                <button class="btn-outline-white sans" onclick="window.open('https://www.google.com/calendar/render?action=TEMPLATE&text=Joel+%26+Jeena+Wedding&dates=20260711T053000Z/20260711T083000Z&details=Wedding+ceremony+at+XII+Apostles+Church%2C+Chemmalamattom+followed+by+reception+at+XII+Apostles+Church+Auditorium.&location=XII+Apostles+Church%2C+Chemmalamattom', '_blank')">Save The Date</button>
+            </div>
+
+            <div class="event-summary-grid">
+                <div class="summary-card">
+                    <h6 class="sans">Ceremony</h6>
+                    <p>11:00 am</p>
+                    <p class="loc">XII Apostles Church</p>
+                </div>
+                <div class="summary-card">
+                    <h6 class="sans">Reception</h6>
+                    <p>After Wedding</p>
+                    <p class="loc">Auditorium celebration</p>
+                </div>
+            </div>
+
+            <p class="bible-quote">"The Lord God said, it is not good for the man to be alone."</p>
+        </div>
+
+        <!-- Beige Card Grid -->
+        <div class="card-grid">
+            <!-- Countdown Card -->
+            <div class="beige-card reveal">
+                <p class="card-label sans">Countdown</p>
+                <h2 class="card-title">Until We Say I Do</h2>
+                <div id="timer" class="timer-container">
+                    <div class="timer-box">
+                        <span id="days">00</span>
+                        <label class="sans">Days</label>
+                    </div>
+                    <div class="timer-box">
+                        <span id="hours">00</span>
+                        <label class="sans">Hours</label>
+                    </div>
+                    <div class="timer-box">
+                        <span id="minutes">00</span>
+                        <label class="sans">Minutes</label>
+                    </div>
+                    <div class="timer-box">
+                        <span id="seconds">00</span>
+                        <label class="sans">Seconds</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Details Card -->
+            <div class="beige-card reveal">
+                <p class="card-label sans">Event Details</p>
+                <h2 class="card-title serif">Where the day unfolds</h2>
+                
+                <div class="event-grid">
+                    <div class="event-box">
+                        <p class="event-label">Ceremony <span class="dot"></span></p>
+                        <h4>XII Apostles Church</h4>
+                        <p class="event-date">Saturday, July 11, 2026</p>
+                        <p class="event-time">11:00 am, Chemmalamattom</p>
+                    </div>
+
+                    <div class="event-box">
+                        <p class="event-label">Reception <span class="dot"></span></p>
+                        <h4>XII Apostles Church Auditorium</h4>
+                        <p class="event-date">Immediately after the wedding</p>
+                        <p class="event-time">Lunch, blessings, and celebration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Combined Info Section (Family & Location) -->
+        <div class="card-grid">
+            <!-- Family Details Card -->
+            <div id="family" class="beige-card reveal">
+                <p class="card-label sans">Families</p>
+                <h2 class="card-title serif">Family Details</h2>
+                
+                <div class="family-vertical-list">
+                    <div class="family-box">
+                        <p class="role sans">Groom</p>
+                        <h3>Joel Joseph</h3>
+                        <p class="parents">Mr. Joseph Mathew & Mrs. Ancy Joseph</p>
+                        <p class="address">Kocheettathottu House, Pinnakkanadu, Kalaketty(P.O)</p>
+                    </div>
+                    <div class="family-box">
+                        <p class="role sans">Bride</p>
+                        <h3>Jeena Jacob</h3>
+                        <p class="parents">Mr. Josey K & Mrs. Jessy Josey</p>
+                        <p class="address">Koottiyaniyil House, Chemmalamattom, Chemmalamattom(P.O)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location Section -->
+            <div id="location" class="beige-card reveal">
+                <p class="card-label sans">Location</p>
+                <h2 class="card-title serif">Find the venue easily</h2>
+                
+                <div class="map-frame">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31796.198119755816!2d76.7721304!3d9.6339343!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0634d6dd4737a3%3A0x74eda30995b8af3e!2sXII%20Apostles%20Church%2C%20Chemmalamattom!5e1!3m2!1sen!2sin!4v1778518902007!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="map-description">
+                    <h4>XII Apostles Church, Chemmalamattom</h4>
+                    <p>Ceremony atSaturday | 11:00 AM, followed by reception at XII Apostles Church Auditorium.</p>
+                </div>
+
+                <button class="btn-dark sans" onclick="window.open('https://maps.app.goo.gl/Z6Xc44LJJw4nUQny8', '_blank')">Get Directions</button>
+            </div>
+        </div>
+
+        <!-- Invitation Note Section -->
+        <div id="invite" class="invitation-note-grid">
+            <div class="beige-card reveal">
+                <p class="card-label sans">Invitation Note</p>
+                <h2 class="card-title">Your presence, blessings, and prayers will make our day complete.</h2>
+                <p class="card-text">Please join us for the wedding ceremony at XII Apostles Church, Chemmalamattom, and stay with us for the reception that follows.</p>
+            </div>
+            <div class="reception-mini-card reveal">
+                <h6 class="sans">Reception</h6>
+                <h3>Church Auditorium</h3>
+                <p>Continue the celebration with lunch, blessings, and shared joy after the ceremony.</p>
+            </div>
+        </div>
+
+        <!-- Best Compliments Card -->
+        <div class="beige-card reveal" style="margin-top: 30px;">
+            <p class="card-label sans">With Best Compliments From</p>
+            <p style="font-size: 1.5rem; color: var(--burgundy);" class="card-wish">Abin, Aswathy, Jins, Cinu, Avah Mariya</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-bar reveal">
+            <div class="footer-info">
+                <p class="sans">Designed and Developed by Albin Mathews | Copyright (c) 2026. All Rights Reserved.</p>
+            </div>
+            <div class="contact-btn sans" onclick="window.location.href='tel:+919207215221'" style="cursor: pointer;">Contact 9207215221</div>
+        </footer>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
+
+
