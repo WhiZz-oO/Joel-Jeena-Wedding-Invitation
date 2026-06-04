@@ -738,7 +738,7 @@ h1, h2, h3, .script {
 }
 
 .footer-info p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     opacity: 0.7;
     max-width: 600px;
@@ -927,7 +927,7 @@ h1, h2, h3, .script {
         padding: 20px 16px;
     }
     .footer-info p {
-        font-size: 0.85rem;
+        font-size: 0.7rem;
     }
     .contact-btn {
         width: 100%;
