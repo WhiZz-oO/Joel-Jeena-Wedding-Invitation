@@ -58,6 +58,3 @@ function checkReveal() {
 
 window.addEventListener('scroll', checkReveal);
 window.addEventListener('load', checkReveal);
-
-window.addEventListener('scroll', checkReveal);
-window.addEventListener('load', checkReveal);
